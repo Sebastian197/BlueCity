@@ -17,6 +17,6 @@
     "dev": "nodemon ./${main}"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "IES El Rincón",
+  "license": "Apache-2.0"
 }
