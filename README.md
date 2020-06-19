@@ -32,7 +32,7 @@ cd bluecity
 npm install
 ```
 
-1. You need a mysql/mariadb server working.
+1. You need a MySQL/MariaDB server working.
 
 2. You have to edit the file bluecity/src/keys/keys.js, depending on your environment.
 
@@ -65,6 +65,9 @@ Enjoy!!!
 * [sequelize](https://sequelize.org/) - Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. It features solid transaction support, relations, eager and lazy loading, read replication and more.
 * [express](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js.
 * [MySQL Workbench](https://www.mysql.com/products/workbench/) - MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.
+* [DBeaver CE](https://dbeaver.io/) - Free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases.
+* [Postman](https://www.postman.com/) - Postman is a collaboration platform for API development.
+* [Insomnia](https://insomnia.rest/) - API design platform and REST client.
 * [nodemon](https://nodemom.io) - Utility that will monitor for any changes in your source and automatically restart your server.
 * [mysql](https://www.npmjs.com/package/mysql) and [mysql2](https://www.npmjs.com/package/mysql2) - APIs for MySQL/MariaDB
 
