@@ -45,7 +45,7 @@ port: 3306,
 dialect: 'mysql'
 ```
 
-3. Create the mysql database, that in our case is "bluecity_db".
+3. Create the mysql database, that in our case is "bluecity_db". Follow this diagram.
 
 ![JetBrains & PhpStorm](https://ubublog.com/wp-content/uploads/logo-ps-jb.png)
 
