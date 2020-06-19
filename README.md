@@ -1,2 +1,2 @@
-# Bluecity-REST-API
+# Bluecity
 REST API del proyecto Bluecity
