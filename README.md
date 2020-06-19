@@ -37,17 +37,17 @@ npm install
 2. You have to edit the file bluecity/src/keys/keys.js, depending on your environment.
 
 ```
-    host: '127.0.0.1',
-    user: 'root',
-    password: 'your_password',
-    database: 'bluecity_db',
-    port: 3306,
-    dialect: 'mysql'
+host: '127.0.0.1',
+user: 'root',
+password: 'your_password',
+database: 'bluecity_db',
+port: 3306,
+dialect: 'mysql'
 ```
 
 3. Create the mysql database, that in our case is "bluecity_db".
 
-
+![JetBrains & PhpStorm](https://ubublog.com/wp-content/uploads/logo-ps-jb.png)
 
 Finally to start enjoying this project.
 
