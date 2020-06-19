@@ -34,38 +34,25 @@ npm install
 
 1. You need a mysql/mariadb server working.
 
-2. You have to edit the file bluecity/backend/config/config.json, depending on your environment.
+2. You have to edit the file bluecity/src/keys/keys.js, depending on your environment.
 
 ```
-    "username": "root",
-    "password": "your password",
-    "database": "bluecity_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": 0
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'your_password',
+    database: 'bluecity_db',
+    port: 3306,
+    dialect: 'mysql'
 ```
 
-4. Create the mysql database, that in our case is "bluecity_development".
+3. Create the mysql database, that in our case is "bluecity_db".
 
-5. Do the migration creating the tables with the contents of /bluecity/migrations 
 
-```
-npx sequelize-cli db:migrate
-```
-
-6. And populating the tables with data with the contents of /bluecity/seeders
-
-```
-npx sequelize-cli db:seed:all
-```
 
 Finally to start enjoying this project.
 
 ```
-cd bluecity/frontend
-npm start
-
-cd bluecity/backend
+cd bluecity
 npm start
 ```
 
@@ -74,16 +61,18 @@ Enjoy!!!
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - The Editor used in this project
-* [React](https://reactjs.org/) - React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 * [Node.js](https://nodejs.org/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-* [Leaflet](https://leafletjs.com/) - an open-source JavaScript library for mobile-friendly interactive maps.
-* [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) - React package integrating all icons in fontawesome.
-* [react-bootstrap](https://react-bootstrap.github.io/) - React-Bootstrap replaces the Bootstrap JavaScript. Each component has been built from scratch as a true React component, without unneeded dependencies like jQuery.
-* [react-leaflet](https://react-leaflet.js.org/) - React-Leaflet uses ⚛️ React's lifecycle methods to call the relevant Leaflet handlers, which has a few consequences.
 * [sequelize](https://sequelize.org/) - Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. It features solid transaction support, relations, eager and lazy loading, read replication and more.
 * [express](https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js.
 * [MySQL Workbench](https://www.mysql.com/products/workbench/) - MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.
-* [dotenv](https://www.npmjs.com/package/dotenv) - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
+* [nodemon](https://nodemom.io) - Utility that will monitor for any changes in your source and automatically restart your server.
+* [mysql](https://www.npmjs.com/package/mysql) and [mysql2](https://www.npmjs.com/package/mysql2) - APIs for MySQL/MariaDB
+
+## Authors
+* Daniel del Pino Bolaños
+* María Adelaida Ferrer Santana
+* Echedey López Romero
+* Sebastián Moreno Saavedra
 
 ## Acknowledgments
 * José Juan Rodríguez Martínez because of his dedication to teach us.
