@@ -78,4 +78,4 @@ Enjoy!!!
 * Sebastián Moreno Saavedra
 
 ## Acknowledgments
-* José Juan Rodríguez Martínez because of his dedication to teach us.
+* José Juan Rodríguez Martín because of his dedication to teach us.
