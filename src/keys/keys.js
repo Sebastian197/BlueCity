@@ -1,7 +1,7 @@
 const KeysDatabase = ({
     host: 'localhost',
     user: 'root',
-    password: 'Malboros38@',
+    password: 'your_password',
     database: 'bluecity_db',
     port: 3306,
     dialect: 'mysql'
